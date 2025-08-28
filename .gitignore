@@ -1,3 +1,117 @@
-# 环境变量文件
+# =========================
+# OS / Editor files
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
+*.tmp
+*.log
+*.bak
+*.orig
+*.rej
+*~
+
+# =========================
+# IDE / Editor settings
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+*.manifest
+*.spec
+*.pytest_cache/
+.mypy_cache/
+.pytest_cache/
+
+# =========================
+# Java / JVM
+# =========================
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.ipr
+*.iws
+target/
+.gradle/
+build/
+out/
+
+# =========================
+# C / C++ / Go
+# =========================
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.out
+*.class
+*.log
+bin/
+debug/
+release/
+
+# =========================
+# Rust
+# =========================
+/target/
+Cargo.lock
+
+# =========================
+# Environment / Secrets
+# =========================
 .env
 .env.*
+*.key
+*.pem
+*.crt
+*.cert
+
+# =========================
+# Others
+# =========================
+coverage/
+.cache/
+*.coverage
+*.sqlite3
+*.db
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.rar
+
